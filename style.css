@@ -1,0 +1,131 @@
+
+body {
+    /* display: flex; */
+    padding: 0;
+    margin: 0;
+    /* flex-direction: column; */
+    height: 100%;
+    background: gray;
+}
+
+li {
+    /* float: left; */
+    /* background: yellow; */
+}
+
+/* .header-div  */
+header {
+    display: flex;
+    position: relative;
+    background: orange;
+    height: 50px;
+    width: auto;
+    font-family: Arial;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+#navbar {
+    display: flex;
+    height: 50px;
+    width: auto;
+    background: red;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    color: blue;
+    background: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input-div {
+    display: flex;
+    flex-flow: column wrap;
+    background: lightblue;
+    height: 700px;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    
+}
+
+#gpic {
+    display: flex;
+    background: yellow;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+#search {
+    display: flex;
+    width: 300px;
+    height: 25px;
+    padding: 20px;
+    background: green;
+    justify-content: center;
+    align-content: center;
+}
+#input {
+    width: 280px;
+}
+
+#buttons {
+    display: flex;
+    background: purple;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    display: flex;
+    height: 30px;
+    line-height: 25px;
+}
+
+
+
+/* #pic {
+    display: flex;
+} */
+
+/* li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+} */
+
+footer {
+    display: flex;
+    position: sticky;
+    background: pink;
+    height: 50px;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer-items {
+    display: flex;
+    list-style: none;
+    color: orange;
+    width: 1000px;
+    background: black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
